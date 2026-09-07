@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Portafolio de Jordan Castillo, Tecnólogo en Desarrollo de Software. Desarrollo web, móvil y backend.">
+    <meta
+        name="description"
+        content="Portafolio profesional de Jordan Castillo, Tecnólogo en Desarrollo de Software especializado en desarrollo web, backend y aplicaciones móviles."
+    >
 
     <title>Jordan Castillo | Desarrollador de Software</title>
 
@@ -13,15 +16,16 @@
 
 <body>
 
-    <!-- =========================
-         NAVEGACIÓN
-    ========================== -->
+    <!-- ================= HEADER ================= -->
 
-    <header>
-        <nav>
-            <a href="#inicio">Jordan Castillo</a>
+    <header class="header">
+        <nav class="navbar">
 
-            <ul>
+            <a href="#inicio" class="logo">
+                Jordan<span>.</span>
+            </a>
+
+            <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#sobre-mi">Sobre mí</a></li>
                 <li><a href="#tecnologias">Tecnologías</a></li>
@@ -29,409 +33,816 @@
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
+
         </nav>
     </header>
 
 
     <main>
 
-        <!-- =========================
-             INICIO
-        ========================== -->
+        <!-- ================= HERO ================= -->
 
-        <section id="inicio">
+        <section class="hero" id="inicio">
+            <div class="hero-contenido">
 
-            <p>Hola, soy</p>
+                <p class="hero-saludo">Hola, soy</p>
 
-            <h1>Jordan Castillo</h1>
+                <h1>Jordan Castillo</h1>
 
-            <h2>Desarrollador de Software</h2>
+                <h2>Tecnólogo en Desarrollo de Software</h2>
 
-            <p>
-                Tecnólogo en Desarrollo de Software con experiencia
-                en desarrollo web, móvil, backend, bases de datos
-                y creación de APIs REST.
-            </p>
-
-            <div>
-                <a href="#proyectos" class="boton">
-                    Ver proyectos
-                </a>
-
-                <a href="#contacto" class="boton boton-secundario">
-                    Contactarme
-                </a>
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             SOBRE MÍ
-        ========================== -->
-
-        <section id="sobre-mi">
-
-            <h2>Sobre mí</h2>
-
-            <p>
-                Soy Tecnólogo en Desarrollo de Software por la
-                Pontificia Universidad Católica del Ecuador.
-            </p>
-
-            <p>
-                Tengo experiencia práctica en desarrollo web,
-                aplicaciones móviles, backend, bases de datos
-                y construcción de APIs REST.
-            </p>
-
-            <p>
-                Me interesa crear soluciones de software funcionales,
-                escalables y fáciles de mantener, combinando
-                desarrollo frontend y backend.
-            </p>
-
-        </section>
-
-
-        <!-- =========================
-             TECNOLOGÍAS
-        ========================== -->
-
-        <section id="tecnologias">
-
-            <h2>Tecnologías</h2>
-
-            <h3>Lenguajes</h3>
-
-            <ul>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>Java</li>
-                <li>Kotlin</li>
-                <li>Python</li>
-            </ul>
-
-
-            <h3>Frontend</h3>
-
-            <ul>
-                <li>React</li>
-                <li>React Native</li>
-                <li>Expo</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Tailwind CSS</li>
-            </ul>
-
-
-            <h3>Frameworks</h3>
-
-            <ul>
-                <li>Angular</li>
-                <li>Ionic</li>
-                <li>Jetpack Compose</li>
-                <li>Django</li>
-            </ul>
-
-
-            <h3>Backend</h3>
-
-            <ul>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>Django</li>
-                <li>REST APIs</li>
-                <li>JWT</li>
-                <li>Axios</li>
-            </ul>
-
-
-            <h3>Bases de datos</h3>
-
-            <ul>
-                <li>MySQL</li>
-                <li>PostgreSQL</li>
-                <li>SQL Server</li>
-                <li>Azure SQL Database</li>
-                <li>MongoDB</li>
-            </ul>
-
-
-            <h3>Cloud y herramientas</h3>
-
-            <ul>
-                <li>AWS</li>
-                <li>Docker</li>
-                <li>Docker Compose</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>GitLab</li>
-                <li>Postman</li>
-                <li>Swagger</li>
-                <li>OpenAPI</li>
-                <li>Jest</li>
-            </ul>
-
-        </section>
-
-
-        <!-- =========================
-             EXPERIENCIA
-        ========================== -->
-
-        <section id="experiencia">
-
-            <h2>Experiencia</h2>
-
-            <div class="experiencia-item">
-
-                <h3>Practicante de Desarrollo Web — SENIROP SAS</h3>
-
-                <p>
-                    Enero 2026 — Marzo 2026
+                <p class="hero-descripcion">
+                    Desarrollo aplicaciones web y móviles, APIs REST y soluciones
+                    backend, conectando interfaces, lógica de negocio y bases de datos
+                    para convertir ideas en software funcional.
                 </p>
 
-                <ul>
-                    <li>
-                        Desarrollo de una aplicación web para comercio electrónico.
-                    </li>
+                <div class="hero-botones">
+                    <a href="#proyectos" class="boton">
+                        Ver mis proyectos
+                    </a>
 
-                    <li>
-                        Implementación de catálogo de productos y carrito de compras.
-                    </li>
+                    <a href="#contacto" class="boton boton-secundario">
+                        Contactarme
+                    </a>
+                </div>
 
-                    <li>
-                        Integración entre frontend y backend.
-                    </li>
+                <div class="hero-datos">
+                    <div class="hero-dato">
+                        <strong>6</strong>
+                        <span>Proyectos</span>
+                    </div>
 
-                    <li>
-                        Desarrollo utilizando React, Vite y TypeScript.
-                    </li>
+                    <div class="hero-separador"></div>
 
-                    <li>
-                        Implementación y conexión con servicios backend
-                        utilizando Node.js y PostgreSQL.
-                    </li>
+                    <div class="hero-dato">
+                        <strong>Web + Mobile</strong>
+                        <span>Desarrollo</span>
+                    </div>
 
-                    <li>
-                        Realización de pruebas funcionales de la aplicación.
-                    </li>
-                </ul>
+                    <div class="hero-separador"></div>
+
+                    <div class="hero-dato">
+                        <strong>REST API</strong>
+                        <span>Backend</span>
+                    </div>
+
+                    <div class="hero-separador"></div>
+
+                    <div class="hero-dato">
+                        <strong>SQL + NoSQL</strong>
+                        <span>Bases de datos</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= SOBRE MÍ ================= -->
+
+        <section id="sobre-mi" class="seccion">
+
+            <div class="contenedor">
+
+                <p class="seccion-etiqueta">
+                    SOBRE MÍ
+                </p>
+
+                <h2 class="titulo-seccion">
+                    Desarrollo software con propósito
+                </h2>
+
+                <div class="sobre-mi-contenido">
+
+                    <p>
+                        Soy Tecnólogo en Desarrollo de Software por la
+                        Pontificia Universidad Católica del Ecuador.
+                        Tengo experiencia práctica en desarrollo web,
+                        aplicaciones móviles, backend, bases de datos
+                        y APIs REST.
+                    </p>
+
+                    <p>
+                        Durante mi formación he trabajado en proyectos
+                        utilizando tecnologías como React, React Native,
+                        Angular, Ionic, Node.js, Express, Django y
+                        PostgreSQL, además de herramientas como Docker,
+                        AWS y Git.
+                    </p>
+
+                    <p>
+                        Me interesa seguir creciendo como desarrollador,
+                        participar en proyectos reales y construir
+                        soluciones que combinen una buena experiencia
+                        de usuario con una arquitectura sólida.
+                    </p>
+
+                </div>
 
             </div>
 
         </section>
 
 
-        <!-- =========================
-             PROYECTOS
-        ========================== -->
+        <!-- ================= TECNOLOGÍAS ================= -->
+
+        <section id="tecnologias" class="seccion seccion-alterna">
+
+            <div class="contenedor">
+
+                <p class="seccion-etiqueta">
+                    TECNOLOGÍAS
+                </p>
+
+                <h2 class="titulo-seccion">
+                    Herramientas con las que trabajo
+                </h2>
+
+                <div class="tecnologias-grid">
+
+
+                    <!-- Lenguajes -->
+
+                    <article class="tecnologia-grupo">
+
+                        <h3>Lenguajes</h3>
+
+                        <div class="tecnologia-tags">
+                            <span>JavaScript</span>
+                            <span>TypeScript</span>
+                            <span>Python</span>
+                            <span>Java</span>
+                            <span>Kotlin</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Frontend -->
+
+                    <article class="tecnologia-grupo">
+
+                        <h3>Frontend</h3>
+
+                        <div class="tecnologia-tags">
+                            <span>React</span>
+                            <span>React Native</span>
+                            <span>Angular</span>
+                            <span>Ionic</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Backend -->
+
+                    <article class="tecnologia-grupo">
+
+                        <h3>Backend</h3>
+
+                        <div class="tecnologia-tags">
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>Django</span>
+                            <span>REST APIs</span>
+                            <span>JWT</span>
+                            <span>Axios</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Bases de datos -->
+
+                    <article class="tecnologia-grupo">
+
+                        <h3>Bases de datos</h3>
+
+                        <div class="tecnologia-tags">
+                            <span>PostgreSQL</span>
+                            <span>MySQL</span>
+                            <span>MongoDB</span>
+                            <span>SQL Server</span>
+                            <span>Azure SQL</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Cloud -->
+
+                    <article class="tecnologia-grupo">
+
+                        <h3>Cloud & DevOps</h3>
+
+                        <div class="tecnologia-tags">
+                            <span>AWS</span>
+                            <span>Amazon EC2</span>
+                            <span>Amazon RDS</span>
+                            <span>Docker</span>
+                            <span>Docker Compose</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Herramientas -->
+
+                    <article class="tecnologia-grupo">
+
+                        <h3>Herramientas</h3>
+
+                        <div class="tecnologia-tags">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>GitLab</span>
+                            <span>Postman</span>
+                            <span>Swagger</span>
+                            <span>Jest</span>
+                            <span>Power BI</span>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+<section id="capacidades" class="capacidades">
+    <div class="contenedor">
+
+        <p class="seccion-label">CAPACIDADES</p>
+        <h2 class="seccion-titulo">Lo que puedo hacer</h2>
+
+        <div class="capacidades-grid">
+
+            <div class="capacidad">
+                <div class="capacidad-icono">01</div>
+                <div class="capacidad-contenido">
+                    <h3>Desarrollo web</h3>
+                    <p>
+                        Desarrollo de aplicaciones web modernas, responsivas
+                        y orientadas a una buena experiencia de usuario.
+                    </p>
+                </div>
+            </div>
+
+            <div class="capacidad">
+                <div class="capacidad-icono">02</div>
+                <div class="capacidad-contenido">
+                    <h3>Desarrollo móvil</h3>
+                    <p>
+                        Creación de aplicaciones móviles utilizando React Native,
+                        Expo y tecnologías multiplataforma.
+                    </p>
+                </div>
+            </div>
+
+            <div class="capacidad">
+                <div class="capacidad-icono">03</div>
+                <div class="capacidad-contenido">
+                    <h3>APIs REST</h3>
+                    <p>
+                        Diseño e implementación de APIs REST con Node.js,
+                        Express y Django, incluyendo autenticación JWT.
+                    </p>
+                </div>
+            </div>
+
+            <div class="capacidad">
+                <div class="capacidad-icono">04</div>
+                <div class="capacidad-contenido">
+                    <h3>Bases de datos</h3>
+                    <p>
+                        Diseño, consulta e integración de bases de datos
+                        relacionales y NoSQL.
+                    </p>
+                </div>
+            </div>
+
+            <div class="capacidad">
+                <div class="capacidad-icono">05</div>
+                <div class="capacidad-contenido">
+                    <h3>Frontend + Backend</h3>
+                    <p>
+                        Integración completa entre interfaces, lógica de negocio,
+                        APIs y persistencia de datos.
+                    </p>
+                </div>
+            </div>
+
+            <div class="capacidad">
+                <div class="capacidad-icono">06</div>
+                <div class="capacidad-contenido">
+                    <h3>Testing y documentación</h3>
+                    <p>
+                        Pruebas funcionales y automatizadas, además de
+                        documentación de APIs con Swagger y OpenAPI.
+                    </p>
+                </div>
+            </div>
+
+            <div class="capacidad">
+                <div class="capacidad-icono">07</div>
+                <div class="capacidad-contenido">
+                    <h3>Docker y despliegue</h3>
+                    <p>
+                        Uso de Docker y Docker Compose, además de experiencia
+                        con servicios de AWS como EC2 y RDS.
+                    </p>
+                </div>
+            </div>
+
+            <div class="capacidad">
+                <div class="capacidad-icono">08</div>
+                <div class="capacidad-contenido">
+                    <h3>Soporte tecnológico</h3>
+                    <p>
+                        Instalación y actualización de software, configuración
+                        básica de equipos y resolución de problemas técnicos.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+        <!-- ================= EXPERIENCIA ================= -->
+
+        <section id="experiencia" class="seccion">
+
+            <div class="contenedor">
+
+                <p class="seccion-etiqueta">
+                    EXPERIENCIA
+                </p>
+
+                <h2 class="titulo-seccion">
+                    Experiencia profesional
+                </h2>
+
+
+                <article class="experiencia-item">
+
+                    <div class="experiencia-cabecera">
+
+                        <div>
+                            <h3>
+                                Practicante de Desarrollo Web
+                            </h3>
+
+                            <h4>
+                                SENIROP SAS
+                            </h4>
+                        </div>
+
+                        <span class="experiencia-fecha">
+                            Ene 2026 – Mar 2026
+                        </span>
+
+                    </div>
+
+
+                    <p>
+                        Participé en el desarrollo de una aplicación web
+                        de comercio electrónico, trabajando en el catálogo
+                        de productos, carrito de compras e integración
+                        entre frontend y backend.
+                    </p>
+
+
+                    <ul class="experiencia-lista">
+
+                        <li>
+                            Desarrollo de interfaces utilizando React y Vite.
+                        </li>
+
+                        <li>
+                            Integración con servicios backend desarrollados
+                            con Node.js.
+                        </li>
+
+                        <li>
+                            Trabajo con bases de datos PostgreSQL.
+                        </li>
+
+                        <li>
+                            Pruebas funcionales y validación de funcionalidades.
+                        </li>
+
+                    </ul>
+
+
+                    <div class="tecnologia-tags experiencia-tags">
+                        <span>TypeScript</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>Vite</span>
+                        <span>Node.js</span>
+                        <span>PostgreSQL</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROYECTOS ================= -->
 
         <section id="proyectos">
 
-            <h2>Proyectos</h2>
+            <div class="contenedor">
 
-            <div class="proyectos-grid">
+                <p class="seccion-label">PROYECTOS</p>
 
+                <h2 class="seccion-titulo">
+                    Proyectos destacados
+                </h2>
 
-                <!-- Proyecto 1 -->
+                <div class="proyectos-grid">
 
-                <article class="proyecto">
+                    <!-- PROYECTO 01 -->
+                    <article class="proyecto proyecto-destacado">
 
-                    <h3>Aplicación móvil de bienestar emocional</h3>
+                        <div class="proyecto-numero">01</div>
 
-                    <p>
-                        Proyecto de titulación desarrollado para ofrecer
-                        herramientas de seguimiento emocional y actividades
-                        de autocuidado.
-                    </p>
+                        <p class="proyecto-tipo">
+                            PROYECTO DE TITULACIÓN
+                        </p>
 
-                    <p>
-                        Incluye autenticación mediante JWT, historial de
-                        emociones, actividades de reflexión, gamificación,
-                        niveles, puntos y logros.
-                    </p>
+                        <h3>Aplicación móvil de bienestar emocional</h3>
 
-                    <p>
-                        <strong>Tecnologías:</strong>
-                        React Native, Expo, Node.js, Express,
-                        PostgreSQL, Jest y Postman.
-                    </p>
+                        <p>
+                            Aplicación móvil enfocada en el bienestar emocional,
+                            desarrollada para permitir a los usuarios registrar y
+                            consultar sus emociones, realizar actividades de
+                            autocuidado y reflexión, y avanzar mediante un sistema
+                            de puntos, niveles y logros.
+                        </p>
 
-                </article>
+                        <ul class="proyecto-caracteristicas">
+                            <li>Autenticación mediante JWT</li>
+                            <li>Historial y filtrado de emociones</li>
+                            <li>Sistema de gamificación</li>
+                            <li>Módulo administrativo</li>
+                            <li>API REST y pruebas funcionales</li>
+                        </ul>
 
+                        <div class="tecnologias-tags">
+                            <span>React Native</span>
+                            <span>Expo</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                            <span>Jest</span>
+                        </div>
 
-                <!-- Proyecto 2 -->
+                        <div class="proyecto-links">
+                            <a
+                                href="https://github.com/ed-cmd-max/Salud_mental"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="proyecto-link"
+                            >
+                                Ver código
+                                <span>↗</span>
+                            </a>
+                        </div>
 
-                <article class="proyecto">
-
-                    <h3>Aula Virtual</h3>
-
-                    <p>
-                        Plataforma educativa con diferentes roles para
-                        administradores, profesores y estudiantes.
-                    </p>
-
-                    <p>
-                        Incluye gestión de asignaturas, tareas,
-                        anuncios, calificaciones, usuarios y archivos.
-                    </p>
-
-                    <p>
-                        <strong>Tecnologías:</strong>
-                        Ionic, Angular, Node.js, Express,
-                        PostgreSQL, Docker y AWS.
-                    </p>
-
-                </article>
-
-
-                <!-- Proyecto 3 -->
-
-                <article class="proyecto">
-
-                    <h3>Watermaker</h3>
-
-                    <p>
-                        Aplicación web orientada al control y análisis
-                        de la huella hídrica.
-                    </p>
-
-                    <p>
-                        Permite registrar consumo, consultar resultados,
-                        estadísticas y rankings, además de utilizar
-                        dashboards para visualizar información.
-                    </p>
-
-                    <p>
-                        <strong>Tecnologías:</strong>
-                        React, JavaScript, Tailwind CSS, Node.js,
-                        Azure SQL, SQL Server, MongoDB y Power BI.
-                    </p>
-
-                </article>
+                    </article>
 
 
-                <!-- Proyecto 4 -->
+                    <!-- PROYECTO 02 -->
+                    <article class="proyecto">
 
-                <article class="proyecto">
+                        <div class="proyecto-numero">02</div>
 
-                    <h3>Nina Paleta</h3>
+                        <p class="proyecto-tipo">
+                            PROYECTO INTEGRADOR
+                        </p>
 
-                    <p>
-                        Sitio web desarrollado para un negocio de helados,
-                        enfocado en presentar productos, historia de la
-                        marca y medios de contacto.
-                    </p>
+                        <h3>Aula Virtual</h3>
 
-                    <p>
-                        Cuenta con diseño responsive, animaciones,
-                        validación de formularios e interacción mediante JavaScript.
-                    </p>
+                        <p>
+                            Plataforma educativa con diferentes roles de usuario,
+                            diseñada para gestionar asignaturas, tareas,
+                            anuncios, calificaciones, usuarios y archivos.
+                        </p>
 
-                    <p>
-                        <strong>Tecnologías:</strong>
-                        HTML, CSS y JavaScript.
-                    </p>
+                        <ul class="proyecto-caracteristicas">
+                            <li>Roles de administrador, docente y estudiante</li>
+                            <li>Autenticación JWT</li>
+                            <li>API REST estructurada por capas</li>
+                            <li>PostgreSQL y Docker</li>
+                            <li>Documentación OpenAPI / Swagger</li>
+                        </ul>
 
-                </article>
+                        <div class="tecnologias-tags">
+                            <span>Ionic</span>
+                            <span>Angular</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                            <span>Docker</span>
+                            <span>AWS</span>
+                        </div>
 
+                        <div class="proyecto-links">
+                            <a
+                                href="https://github.com/sepapu2018-hue/AulaVirtual-Final"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="proyecto-link"
+                            >
+                                Ver código
+                                <span>↗</span>
+                            </a>
+                        </div>
 
-                <!-- Proyecto 5 -->
-
-                <article class="proyecto">
-
-                    <h3>Red Solidaria de Voluntariado</h3>
-
-                    <p>
-                        Plataforma para gestionar actividades de voluntariado,
-                        participantes y disponibilidad de espacios o turnos.
-                    </p>
-
-                    <p>
-                        Incluye lógica del servidor, autenticación,
-                        gestión de información y una interfaz responsive.
-                    </p>
-
-                    <p>
-                        <strong>Tecnologías:</strong>
-                        Django, PostgreSQL, JavaScript, HTML y CSS.
-                    </p>
-
-                </article>
+                    </article>
 
 
-                <!-- Proyecto 6 -->
+                    <!-- PROYECTO 03 -->
+                    <article class="proyecto">
 
-                <article class="proyecto">
+                        <div class="proyecto-numero">03</div>
 
-                    <h3>Calculadora de matrices y sistemas de ecuaciones</h3>
+                        <p class="proyecto-tipo">
+                            DESARROLLO WEB
+                        </p>
 
-                    <p>
-                        Aplicación desarrollada para trabajar con matrices
-                        y resolver sistemas de ecuaciones lineales.
-                    </p>
+                        <h3>Watermaker</h3>
 
-                    <p>
-                        Incluye operaciones matriciales, resolución simbólica,
-                        validación de entradas y representación gráfica.
-                    </p>
+                        <p>
+                            Aplicación web para el control y seguimiento de la
+                            huella hídrica, permitiendo registrar consumos,
+                            consultar resultados y visualizar estadísticas,
+                            rankings y dashboards.
+                        </p>
 
-                    <p>
-                        <strong>Tecnologías:</strong>
-                        Python, SymPy y Matplotlib.
-                    </p>
+                        <ul class="proyecto-caracteristicas">
+                            <li>Seguimiento del consumo de agua</li>
+                            <li>Resultados y estadísticas</li>
+                            <li>Componentes reutilizables</li>
+                            <li>API REST</li>
+                            <li>Dashboards con Power BI</li>
+                        </ul>
 
-                </article>
+                        <div class="tecnologias-tags">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>Tailwind CSS</span>
+                            <span>Node.js</span>
+                            <span>Azure SQL</span>
+                            <span>MongoDB</span>
+                            <span>Power BI</span>
+                        </div>
 
+                        <div class="proyecto-links">
+                            <a
+                                href="https://github.com/FalconLD/proyecto-integrador-3er-semestre"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="proyecto-link"
+                            >
+                                Ver código
+                                <span>↗</span>
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROYECTO 04 -->
+                    <article class="proyecto">
+
+                        <div class="proyecto-numero">04</div>
+
+                        <p class="proyecto-tipo">
+                            DESARROLLO WEB
+                        </p>
+
+                        <h3>Nina Paleta</h3>
+
+                        <p>
+                            Sitio web desarrollado para un negocio de helados,
+                            enfocado en presentar sus productos, historia de
+                            marca y medios de contacto mediante una interfaz
+                            responsive.
+                        </p>
+
+                        <ul class="proyecto-caracteristicas">
+                            <li>Catálogo de productos</li>
+                            <li>Historia de la marca</li>
+                            <li>Formulario de contacto</li>
+                            <li>Diseño responsive</li>
+                            <li>Animaciones y validaciones con JavaScript</li>
+                        </ul>
+
+                        <div class="tecnologias-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="proyecto-links">
+                            <a
+                                href="https://github.com/JS-alt35/NINAPALETA2"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="proyecto-link"
+                            >
+                                Ver código
+                                <span>↗</span>
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROYECTO 05 -->
+                    <article class="proyecto">
+
+                        <div class="proyecto-numero">05</div>
+
+                        <p class="proyecto-tipo">
+                            DESARROLLO WEB
+                        </p>
+
+                        <h3>Red Solidaria de Voluntariado</h3>
+
+                        <p>
+                            Plataforma web para la gestión de actividades de
+                            voluntariado, participantes y disponibilidad de
+                            espacios o turnos.
+                        </p>
+
+                        <ul class="proyecto-caracteristicas">
+                            <li>Gestión de actividades</li>
+                            <li>Registro de participantes</li>
+                            <li>Gestión de cupos y turnos</li>
+                            <li>Autenticación y lógica del servidor</li>
+                            <li>Base de datos PostgreSQL</li>
+                        </ul>
+
+                        <div class="tecnologias-tags">
+                            <span>Django</span>
+                            <span>Python</span>
+                            <span>PostgreSQL</span>
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+
+                        <div class="proyecto-links">
+                            <a
+                                href="https://github.com/ahinoa17/RedSolidaria"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="proyecto-link"
+                            >
+                                Ver código
+                                <span>↗</span>
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROYECTO 06 -->
+                    <article class="proyecto">
+
+                        <div class="proyecto-numero">06</div>
+
+                        <p class="proyecto-tipo">
+                            PYTHON
+                        </p>
+
+                        <h3>Calculadora de matrices y sistemas de ecuaciones</h3>
+
+                        <p>
+                            Aplicación desarrollada en Python para realizar
+                            operaciones con matrices y resolver sistemas de
+                            ecuaciones lineales mediante herramientas de cálculo
+                            simbólico y representación gráfica.
+                        </p>
+
+                        <ul class="proyecto-caracteristicas">
+                            <li>Operaciones con matrices</li>
+                            <li>Resolución de sistemas lineales</li>
+                            <li>Cálculo simbólico</li>
+                            <li>Representación gráfica</li>
+                            <li>Validación de entradas</li>
+                        </ul>
+
+                        <div class="tecnologias-tags">
+                            <span>Python</span>
+                            <span>SymPy</span>
+                            <span>Matplotlib</span>
+                        </div>
+
+                        <div class="proyecto-links">
+
+                            <span class="proyecto-link proyecto-sin-enlace">
+                                Código no disponible
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                </div>
 
             </div>
 
         </section>
 
 
-        <!-- =========================
-             CONTACTO
-        ========================== -->
+        <!-- ================= CONTACTO ================= -->
 
-        <section id="contacto">
+        <section id="contacto" class="seccion contacto">
 
-            <h2>Contacto</h2>
+            <div class="contenedor">
 
-            <p>
-                ¿Tienes un proyecto o una oportunidad profesional?
-                Puedes contactarme mediante:
-            </p>
+                <p class="seccion-etiqueta">
+                    CONTACTO
+                </p>
 
-            <p>
-                <a href="mailto:jordancastillosteven@gmail.com">
-                    jordancastillosteven@gmail.com
-                </a>
-            </p>
+                <h2 class="titulo-seccion">
+                    ¿Hablamos?
+                </h2>
 
-            <p>
-                <a href="https://github.com/JS-alt35" target="_blank">
-                    GitHub — JS-alt35
-                </a>
-            </p>
+                <p class="contacto-descripcion">
+                    Estoy abierto a oportunidades laborales, proyectos
+                    y nuevos retos relacionados con el desarrollo de software.
+                </p>
+
+
+                <div class="contacto-opciones">
+
+                    <a
+                        href="mailto:jordancastillosteven@gmail.com"
+                        class="contacto-item"
+                    >
+                        <span class="contacto-label">
+                            Email
+                        </span>
+
+                        <span>
+                            jordancastillosteven@gmail.com
+                        </span>
+                    </a>
+
+
+                    <a
+                        href="https://github.com/JS-alt35"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contacto-item"
+                    >
+                        <span class="contacto-label">
+                            GitHub
+                        </span>
+
+                        <span>
+                            github.com/JS-alt35
+                        </span>
+                    </a>
+
+                </div>
+
+            </div>
 
         </section>
 
     </main>
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+    <!-- ================= FOOTER ================= -->
 
-    <footer>
+    <footer class="footer">
 
         <p>
-            © 2026 Jordan Castillo. Todos los derechos reservados.
+            © 2026 Jordan Castillo.
+            Todos los derechos reservados.
+        </p>
+
+        <p>
+            Desarrollado con HTML, CSS y JavaScript.
         </p>
 
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
